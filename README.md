@@ -2,13 +2,6 @@
 
 Compile-time LALR(1) parser generator library for Zig.
 
-## What You Get
-
-- Compile-time parse table generation (LALR(1)) specialized per grammar via `comptime`.
-- Integrated lexer: terminals can be `literal`, a custom `matcher` callback, or a small regex-prefix engine.
-- AST construction (`citron.Ast`) with token lexemes and child edges.
-- Optional parse tracing/diagnostics and basic error recovery.
-
 ## Add As A Dependency
 
 From your Zig project:
