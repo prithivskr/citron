@@ -1,0 +1,15 @@
+.{
+    .name = .citron,
+    .version = "0.1.0",
+    .fingerprint = 0x50c779a9fb0cc6d5, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "test",
+        ".gitignore",
+        "README.md",
+    },
+}
